@@ -53,7 +53,7 @@ body{
     border: solid 1px;
     transition: 0.5s;
     font-size: 35px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 20px gray;
 }
 
 .main{
@@ -128,7 +128,7 @@ body{
 }
 
 .footer{
-    display: flex;
+    display: column;
     align-self: center;
     justify-content: center;
     align-items: center;
@@ -216,6 +216,7 @@ body{
     width: 500px;
     height: 400px;
     color: black;
+    box-shadow: 10px 10px 20px white;
 }
 
 .pic2:hover{
@@ -225,6 +226,7 @@ body{
     width: 500px;
     height: 400px;
     color: black;
+    box-shadow: 10px 10px 20px white;
 }
 
 .pic3:hover{
@@ -233,5 +235,18 @@ body{
     transition: 0.5s;
     width: 500px;
     height: 400px;
-    color:black
+    color:black;
+    box-shadow: 10px 10px 20px white;
+}
+
+.desarrolladores{
+    display: flex;
+    width: 90%;
+    background-color: black;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    font-size: 15px;
+    display: flex;
+    color:white;
 }
