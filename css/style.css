@@ -17,14 +17,14 @@ body{
     font-size: medium;
     font-style: oblique;
     font-size: 50px;
-    color:aliceblue;
-    background-color: gray;
+    color:gray;
+    background-color: black;
 }
 
 .nav{
     display: flex;
     width: 90%;
-    background-color: white;
+    background-color: black;
     justify-content: center;
     justify-self: center;
     justify-items: center;
@@ -42,7 +42,8 @@ body{
     border: solid 1px;
     margin: 10px;
     padding: 10px;
-    color:black;
+    color:white;
+    border-color: white;
     font-size: 20px;
 }
 
@@ -52,13 +53,14 @@ body{
     border: solid 1px;
     transition: 0.5s;
     font-size: 35px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .main{
     display: flex;
     height: 400px;
     width: 90%;
-    background-color: white;
+    background-color: black;
     margin: 10px;
     font-size: 30px;
     color:black;
@@ -105,7 +107,6 @@ body{
     font-size: 20px;
 }
 
-
 .section:hover{
     background: url(https://th.bing.com/th/id/R.1f5bfd40c78e32c3d0172e75c8ba14db?rik=l4u1m%2bTan4ODBg&pid=ImgRaw&r=0);
     background-size: cover;
@@ -119,7 +120,118 @@ body{
     align-items: center;
     justify-self: center;
     width: 90%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: gray;
     font-size: 20px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    justify-self: center;
+    align-items: center;
+    border: gray;
+    font-size: medium;
+    font-style: oblique;
+    font-size: 50px;
+    color:gray;
+    background-color: black;
+}
+
+.perj{
+    display: flex;
+    width: 90%;
+    background-color: black;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.pic1{
+    background: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2023/01/Este-deslumbrante-cosplay-te-rendira-a-los-pies-de-2B-de-NieR-Automata-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    border-color: white;
+    font-size: 20px;
+}
+
+.pic2{
+    background: url(https://img.asmedia.epimg.net/resizer/v2/KQOZH4IXHRKPXDTKROJB24LNFM.jpg?auth=e0c2acbada8d2cf764664d207588b71fd948c195207d75227ee4a02205b51088&width=1472&height=828&smart=true);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    border-color: white;
+    font-size: 20px;
+}
+
+.pic3{
+    background: url(https://images.steamusercontent.com/ugc/959734171741331515/BBED502EA1C7B0A976FD26493C935DCA95943A08/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-position: center;
+    background-size: 80% cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    border-color: white;
+    font-size: 20px;
+}
+
+.pic1:hover{
+    background: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2023/01/Este-deslumbrante-cosplay-te-rendira-a-los-pies-de-2B-de-NieR-Automata-1.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    width: 500px;
+    height: 400px;
+    color: black;
+}
+
+.pic2:hover{
+    background: url(https://img.asmedia.epimg.net/resizer/v2/KQOZH4IXHRKPXDTKROJB24LNFM.jpg?auth=e0c2acbada8d2cf764664d207588b71fd948c195207d75227ee4a02205b51088&width=1472&height=828&smart=true);
+    background-size: cover;
+    transition: 0.5s;
+    width: 500px;
+    height: 400px;
+    color: black;
+}
+
+.pic3:hover{
+    background: url(https://images.steamusercontent.com/ugc/959734171741331515/BBED502EA1C7B0A976FD26493C935DCA95943A08/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: cover;
+    transition: 0.5s;
+    width: 500px;
+    height: 400px;
+    color:black
 }
