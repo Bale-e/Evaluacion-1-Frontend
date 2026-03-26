@@ -1,0 +1,125 @@
+body{
+    background: url(https://img.freepik.com/premium-photo/urban-illustration-sustainable-green-city-landscape-with-renewable-energy_1014870-24627.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+    margin: 10px;
+    border: gray;
+    font-size: medium;
+    font-style: oblique;
+    font-size: 50px;
+    color:aliceblue;
+    background-color: gray;
+}
+
+.nav{
+    display: flex;
+    width: 90%;
+    background-color: white;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: gray;
+    border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+}
+
+.item:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px;
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.main{
+    display: flex;
+    height: 400px;
+    width: 90%;
+    background-color: white;
+    margin: 10px;
+    font-size: 30px;
+    color:black;
+    justify-self: center;
+}
+
+.section{
+    display: flex;
+    width: 60%;
+    background: url(https://th.bing.com/th/id/R.1f5bfd40c78e32c3d0172e75c8ba14db?rik=l4u1m%2bTan4ODBg&pid=ImgRaw&r=0);
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    position: left;
+    background-size: cover;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    text-align: center;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+.section:hover{
+    background: url(https://th.bing.com/th/id/R.1f5bfd40c78e32c3d0172e75c8ba14db?rik=l4u1m%2bTan4ODBg&pid=ImgRaw&r=0);
+    background-size: cover;
+    transition: 0.5s;
+    width: 90%;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
